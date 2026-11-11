@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>词间 · 安卓下载</title>
 <style>body{margin:0;background:#f6f3eb;color:#223e38;font:17px/1.7 system-ui,sans-serif}main{max-width:620px;margin:8vh auto;padding:28px}h1{font-size:42px;line-height:1.2}a.download{display:inline-block;background:#26796d;color:white;padding:13px 26px;border-radius:12px;text-decoration:none}pre{white-space:pre-wrap;font:inherit;background:white;padding:20px;border-radius:16px}small{display:block;margin-top:28px}</style>
-<main><h1>词间</h1><p>把刷视频的片刻，留一点给英语。</p><p>安卓体验版 0.1.15</p><p><a class="download" href="cijian-0.1.15.apk" download>下载安卓安装包</a></p>
-<p>已有旧版请直接覆盖安装，不要先卸载，以保留本机学习记录。安装由安卓系统确认。</p><h2>这次更新</h2><pre>修复只答一个词就结束：队列清空不再作为放行条件，仍需达到设置的连续正确数（默认2题）；当前批次尾题不足时，接下一批的词继续答题。
-按确认的新规则衔接学习轮次：本批首遍和全部错词复习达标后，开始下一批新词，之后计时到点仍会弹题。“每日新词数量”改为“每轮新词数量”，当天累计数量单独显示；修改数量从下一轮生效。
-保留错词首次答错后至少再复习5次、最后一次必须答对的规则；同一词当天固定词性。没有剩余新词时明确转入已学词巩固，完全空词库则提示启用词库，不伪装为正常计时出题。
-保留原计时计算、窗口识别、白名单和题面守护；诊断增加批次与队列进度。兼容0.1.14日计划，不清空学习记录，沿用原签名覆盖安装。
-16组逻辑测试和3组持久化集成测试通过，包括跨批连续答题、旧计划升级、一词词库继续弹题。手机已断开，本版尚未实机验证。</pre>
+<main><h1>词间</h1><p>把刷视频的片刻，留一点给英语。</p><p>安卓体验版 0.1.16</p><p><a class="download" href="cijian-0.1.16.apk" download>下载安卓安装包</a></p>
+<p>已有旧版请直接覆盖安装，不要先卸载，以保留本机学习记录。安装由安卓系统确认。</p><h2>这次更新</h2><pre>修复词性标注不一致：补齐旧示例词与少量六级词条的已核对词性，识别 pl. 复数名词；修正词典领域标记导致整段词性丢失的问题。升级保留学习记录，自导入词条缺少词性时明确显示“词性未标注”，不猜测。
+本组改为累计答对目标数量，答错不清零已答对进度。默认两题时，“对、错、对”和“错、对、对”都只需三次作答；重复点击不会追加或重复计分。界面同步显示本组答对数量。
+保留当前批次首遍、错词首次答错后至少再复习5次且最后答对、跨天掌握、同日固定词性、完整释义、手动下一题与继续一组。完成当前批次后仍接下一批新词。
+保留原计时、窗口识别、白名单和题面拦截；兼容旧待完成轮次，原签名覆盖安装保留成绩。
+16组逻辑测试与3组持久化集成测试通过，逐词检查六级5407词、验证答错前后进度及重启恢复。手机已断开，本版未做实机测试。</pre>
 <small>仅提供安卓版本。软件内可选择是否下载更新。本页及安装包使用HTTPS提供。</small></main></html>
