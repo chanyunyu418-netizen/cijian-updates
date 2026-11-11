@@ -7,6 +7,6 @@
 
 更新信息：https://chanyunyu418-netizen.github.io/cijian-updates/update.json
 
-当前版本：0.1.14（15）
+当前版本：0.1.15（16）
 
 更新须经用户选择，最终安装由Android系统确认。请覆盖安装，不要卸载旧版。
