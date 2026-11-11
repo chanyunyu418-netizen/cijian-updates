@@ -1,0 +1,7 @@
+{
+  "versionCode": 8,
+  "versionName": "0.1.7",
+  "notes": "新增HTTPS在线更新通道，启动或回到软件时自动检查版本信息。\n发现新版后由你选择“下载更新”或“稍后”；只在你选择下载后获取安装包。\n下载后检查文件、包名、版本和原签名，再由安卓系统确认安装。\n增加手动重试、最近检查结果和自动检查开关；覆盖更新保留原有本机记录。\n保留0.1.6的到点答题守护、白名单、六级词库和错题记录。",
+  "apkUrl": "https://chanyunyu418-netizen.github.io/cijian-updates/cijian-0.1.7.apk",
+  "sha256": "a3e1acfd11171317e5d57ac6486b15d70aaf4ca9b4b370d566c003af7fd7062b"
+}
